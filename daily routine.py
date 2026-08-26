@@ -18,10 +18,12 @@ print("then we leave school at 3:00 and I arrive at home at 3:40.")
 # this is a comment
 print("then I go have a was and eat my lunch.")
 # this is a comment
-print("Then i do my school home work or draw and do art and play with my mother>")
+print("Then i do my school home work or draw and do art and play with my mother.")
 # this is a comment
 print("then I got to my room and changed in to my pyjamas.")
 # this is a comment
 print("after that, my mother would make my dinner for me and my brother to eat.")
 # this is a comment
 print("then I would go to bed at 9:00 so I can wake up for the next day of school")
+# this is a comment
+print("this is the end of my daily routine.")
