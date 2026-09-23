@@ -9,7 +9,7 @@ print("the total harvest is: " ,total )
 print("the average is " ,average )
 price_per_kg = 15
 earning = total * price_per_kg
-print("the total earning is" ,earning)
+print("the total earning is" ,earning)  
 no_bags = total // 25
 remaining = total % 25
 last_year = 100
