@@ -1,26 +1,31 @@
-print()
-print("===== HOMEWORK CHECK =====")
+print("=== SWIMMING POOL ENTRY CHECKER ===")
+print("Answer the questions to see if you can enter the pool.")
 
-if homework == "N":
-    print("You still have homework to do!")
-    print("Plan some time today to finish your homework.")
-elif homework == "Y":
-    print("Great job! Your homework is finished!")
-    print("You can enjoy some free time.")
+age = int(input("Enter your age: ").strip())
+weather = input("Is the weather sunny or rainy? ").strip().lower()
+swim = input("Can you swim? (Y/N) ").strip().upper()
+shower = input("Have you had a shower? (Y/N) ").strip().upper()
+
+print()
+print("=== YOUR POOL CHECK ===")
+
+if age < 5:
+    print("You need an adult with you.")
+elif age >= 5 and swim == "Y" and shower == "Y":
+    print("You can enter the swimming pool!")
+elif swim == "N" or shower == "N":
+    print("You cannot enter yet.")
+    print("Make sure you can swim and have had a shower.")
 else:
-    print("Please answer the homework question with Y or N.")
-
-print()
-print("===== DAILY ACTIVITY =====")
+    print("Please check your answers.")
 
 if weather == "rainy":
-    print("Activity: Read a book, draw, or play a board game indoors.")
-elif weather == "cloudy":
-    print("Activity: Go for a walk or do some indoor activities.")
+    print("It is rainy, so check if the pool is open.")
 elif weather == "sunny":
-    print("Activity: Play outside, ride your bike, or practise a sport.")
-else:
-    print("Activity: Choose an activity you enjoy!")
+    print("It is sunny! Have fun swimming!")
+
+if not (swim == "Y"):
+    print("Remember to stay with an adult if you cannot swim.")
 
 print()
-print("===== HAVE A GREAT DAY! =====")
+print("=== HAVE FUN AT THE POOL! ===")
