@@ -1,6 +1,6 @@
 m1=100
 m2=100
-m3=100
+m3=1004
 
 total=m1+m2+m3
 avg= int(total/3)
